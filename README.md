@@ -29,6 +29,7 @@ It includes steps to set up the server, install WordPress, secure it with HTTPS,
   sudo ufw allow 'Apache Full'
   sudo ufw enable
   ```
+![](ufw.png "UFW Configuration")
 
 ## 4. Installing LAMP Stack and WordPress
 
