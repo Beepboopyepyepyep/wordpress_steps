@@ -14,7 +14,7 @@ It includes steps to set up the server, install WordPress, secure it with HTTPS,
 - Create a GCP account: https://console.cloud.google.com 
 - Spin up non-preemptible e2-micro VM instance with OS: **Ubuntu 22.04 LTS** in Iowa: us-central1
 - Generate SSH key and add it to the GCP VM
-
+![](gcpvm.png "GCP VM")
 ## 3. SSH Access and Firewall Configuration
 
 - SSH via terminal
@@ -53,7 +53,7 @@ It includes steps to set up the server, install WordPress, secure it with HTTPS,
   sudo chown -R www-data:www-data /var/www/html
   sudo chmod -R 755 /var/www/html
   ```
-
+![](apache.png "Apache")
 ## 5. MySQL Database Setup
 
 - Secure MySQL:
@@ -110,7 +110,7 @@ It includes steps to set up the server, install WordPress, secure it with HTTPS,
 - Save and Test
     - Visit the site to confirm port **80** is disabled.
     - Verify HTTPS is working.
-
+![](firewall.png "Firewall")
 ## 9. Server Hardening
 
 - **Disable root SSH login**:
